@@ -8,6 +8,6 @@ public abstract class AbstractPracownik {
 
     @Override
     public String toString() {
-        return getOpis() + ". Zarabiam " + getWynagrodzenie();
+        return getOpis() + ". Zarabiam " + (int) getWynagrodzenie() + " zl.";
     }
 }
